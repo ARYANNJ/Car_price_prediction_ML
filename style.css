@@ -22,31 +22,34 @@ body{
     justify-content: center;
     align-items: center;
 }
-.nav{
+nav{
+    width: 100%;
     display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 10px;
     align-items: center;
+    /* border: 1px solid black; */
 }
 
 .logo{
-    width: 200px;
+    width: 160px;
     height: 80px;
     cursor: pointer;
+    /* border: 1px solid black; */
     border-radius: 60px;
-    margin-left: 0px;
+    /* margin-right: 20px; */
     margin-top: 10px;
 }
 .navbar-links{
     flex: 1;
     text-align: right;
+    /* border: 1px solid black; */
 }
 .navbar-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position:relative
-    
 }
 .h3{
     color: rgb(33, 33, 132);
